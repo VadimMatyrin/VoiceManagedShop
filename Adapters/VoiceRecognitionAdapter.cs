@@ -65,7 +65,7 @@ namespace VoiceManagedShop.Adapters
                     case "input":
                         if (webDriver.TryInputById(inputId, textRecognized))
                         {
-
+                            Console.WriteLine($"Successfully inputted {textRecognized}");
                         }
                         break;
                     default:
